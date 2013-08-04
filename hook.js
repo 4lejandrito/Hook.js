@@ -133,7 +133,9 @@
                     if(settings.reloadPage) {
                         window.location.reload(true);
                     }
-
+                    el.animate({
+                      "marginTop": "-85px"
+                    }, 200);
                     called = false;
                 });
 
